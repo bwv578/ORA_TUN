@@ -30,3 +30,20 @@ EXPLAIN PLAN FOR
     SELECT ITEM_NM FROM ITEM WHERE ITEM_NM IS NOT NULL ORDER BY ITEM_NM;
 
 SELECT * FROM TABLE ( DBMS_XPLAN.DISPLAY );
+
+
+
+/*
+    [ROWID 개념] P.77
+    행의 고유값 (오브젝트번호 + 파일번호 + 블록번호 + 로우번호)
+    특정 컬럼을 통해 테이블의 인덱스를 생성하면 인덱스는 해당컬럼값과 ROWID로 구성이 된다.
+
+    -> 특정 컬럼값과 매칭되는 ROWID를 통해 해당 ROW에 바로 접근 가능.
+    -> 행의 ROWID를 알고있다면 인덱스를 통하지 않고도 바로 행에 접근 가능.
+*/
+
+-- ROWID 보기
+SELECT ROWID, ITEM_ID, ITEM_NM FROM ITEM;
+
+-- ROWID를 통해 특정 행에 접근
+SELECT * FROM ITEM WHERE ROWID = 'AAASgEAASAAAACDAAI';
