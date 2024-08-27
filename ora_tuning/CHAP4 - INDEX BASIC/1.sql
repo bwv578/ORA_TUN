@@ -32,7 +32,6 @@ EXPLAIN PLAN FOR
 SELECT * FROM TABLE ( DBMS_XPLAN.DISPLAY );
 
 
-
 /*
     [ROWID 개념] P.77
     행의 고유값 (오브젝트번호 + 파일번호 + 블록번호 + 로우번호)
