@@ -6,4 +6,3 @@
     * INDEX_RS: INDEX RANGE SCAN 유도, 불가능하면 힌트 무시
     * INDEX_SS: INDEX SKIP SCAN 유도, 불가능하면 힌트 무시
 */
-
