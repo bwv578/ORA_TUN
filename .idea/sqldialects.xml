@@ -7,6 +7,11 @@
     <file url="file://$PROJECT_DIR$/ora_tuning/CHAP4 - INDEX BASIC/4_INDEX_FAST_FULL_SCAN.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/ora_tuning/CHAP4 - INDEX BASIC/5_INDEX_COMBINE.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/ora_tuning/CHAP5 - INDEX CONJUGATION &amp; TUNNING/1_CLUTERING_FACTOR.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/ora_tuning/CHAP5 - INDEX CONJUGATION &amp; TUNNING/2_TUNING1.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/ora_tuning/CHAP6 - JOIN/1_NL_JOIN.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/ora_tuning/CHAP6 - JOIN/2_SORT_MERGE_JOIN.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/ora_tuning/CHAP6 - JOIN/3_HASH_JOIN.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/ora_tuning/CHAP6 - JOIN/4_OUTER_JOIN.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/ora_tuning/PRAC_0822.SQL" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/ora_tuning/PRAC_0826.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/ora_tuning/PRIVILEGE.SQL" dialect="Oracle" />
